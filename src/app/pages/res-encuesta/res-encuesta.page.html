@@ -1,0 +1,66 @@
+<ion-header>
+    <ion-toolbar color="primary">
+  
+      <ion-buttons slot="start">
+        <ion-button (click)="toggleMenu()" >
+          <ion-icon slot="icon-only" name="menu"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  
+      <ion-title>Dashboard Alumno</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+
+  <ion-card padding>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-text color="primary">
+            <h3>¿Chile ganará la Copa America 2019?</h3>
+          </ion-text>
+        </ion-col> 
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="3"></ion-col>
+        <ion-col size="3">
+          <img src="/assets/emojis/emogi_mb.jpeg" style="width : 90% ; height : 80%" ng-click="nextpage()" >
+        </ion-col>
+        <ion-col size="4" style="margin-top: 5%;">Muy Bueno</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3"></ion-col>
+        <ion-col size="3">
+          <img src="/assets/emojis/emogi_b.jpeg" style="width : 90% ; height : 80%" ng-click="nextpage()" >
+        </ion-col>
+        <ion-col size="4" style="margin-top: 5%;">Bueno</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3"></ion-col>
+        <ion-col size="3">
+          <img src="/assets/emojis/emogi_m.jpeg" style="width : 90% ; height : 80%" ng-click="nextpage()" >
+        </ion-col>
+        <ion-col size="4" style="margin-top: 5%;">Normal</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3"></ion-col>
+        <ion-col size="3">
+          <img src="/assets/emojis/emogi_mm.jpeg" style="width : 90% ; height : 80%" ng-click="nextpage()" >
+        </ion-col>
+        <ion-col size="4" style="margin-top: 5%;">Mal</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3"></ion-col>
+        <ion-col size="3">
+          <img src="/assets/emojis/emogi_mmm.jpeg" style="width : 90% ; height : 80%" ng-click="nextpage()" >
+        </ion-col>
+        <ion-col size="4" style="margin-top: 5%;">Muy Mal</ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+  
+ 
+</ion-content>
